@@ -1,0 +1,67 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.demo {
+    position: relative;
+    width: 400px;
+    height: 600px;
+    margin: 100px auto;
+    border: 1px solid black;
+    overflow: hidden;
+    transform: translateZ(50px);
+}
+
+#in {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;         
+}
+#in div {
+    display: inline-block;
+    width: 50px;
+    height: 40px;
+}
+
+#go {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+    height: 150px;
+    font-size: 60px;
+    text-align: center;
+    line-height: 150px;
+    color: aqua;
+    cursor: pointer;
+    z-index: 999;
+}
+
+#main {
+    position: absolute;
+    top: -150px;
+    height: 0px;
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid red; */
+}
+
+.row {
+    width: 400px;
+    height: 150px;
+}
+
+.row li {
+    float: left;
+    cursor: pointer;
+    width: 98px;
+    height: 148px;
+    border: 1px solid #fff;
+}
